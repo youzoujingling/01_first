@@ -10,10 +10,18 @@
 5.再次检查文件状态，文件颜色为绿色
  git status 
 6.从暂存区提交到版本库
- git conmmit -m 'v1'
+ git conmmit -m 'v1' [文件名]
 7.设置提交身份验证
   git config --global user.email "3335029085@qq.com"
   git config --global user.name "syx"
 8.再次提交
 9.再次检查文件状态，无文件
  git status 
+10.检查提交记录
+ git log [文件名]
+
+
+二、回滚
+1.从版本库回滚到版本库，此时工作区也回滚
+ git reset --hard 文件序号
+
