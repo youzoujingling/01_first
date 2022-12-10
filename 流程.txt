@@ -2,9 +2,18 @@
 1.进入文件夹
 2.进行初始化
  git init
-3.检测文件夹状态
+3.检测文件夹状态,文件颜色为红色
  git status 
 4.将文件提交到暂存区
  git add 1.txt --某个文件
  git add .    --所有文件
- 
+5.再次检查文件状态，文件颜色为绿色
+ git status 
+6.从暂存区提交到版本库
+ git conmmit -m 'v1'
+7.设置提交身份验证
+  git config --global user.email "3335029085@qq.com"
+  git config --global user.name "syx"
+8.再次提交
+9.再次检查文件状态，无文件
+ git status 
